@@ -20,12 +20,9 @@ body {
 
     
     font-family: 'Titillium Web', sans-serif;
-    background-color: var(--color2);
-    
-    
-
-   
+    background-color: var(--color2);  
 }
+
 main {
     height: auto;
     width: 1500px;
@@ -46,8 +43,6 @@ button {
     background-color: gold;
     font-family: fantasy;
     font-size: 1.5rem;
-
-
 }
 
 div {
@@ -78,6 +73,7 @@ h3 {
 img {
     height: 300px;
 }
+
   @keyframes pulse {
     20% {
       transform: rotate3d(-10, -10, -10, 50deg) scale(1.2);
