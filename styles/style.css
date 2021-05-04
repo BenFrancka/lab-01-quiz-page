@@ -54,17 +54,17 @@ div {
 
 h2, h3 {
     font-family: fantasy;
+    color: forestgreen;
 }
 
 h2 {
-    color: forestgreen;
     font-size: 2rem;
 }
 
 h3 {
-    color: forestgreen;
     font-size: 1.5rem; 
 }
+
 .quiz-info {
     color: aliceblue;
     text-align: center;
@@ -74,21 +74,4 @@ img {
     height: 300px;
 }
 
-  @keyframes pulse {
-    20% {
-      transform: rotate3d(-10, -10, -10, 50deg) scale(1.2);
-    }
 
-    40% {
-        transform: rotate3d(10, 10, -10, 50deg) scale(1);
-    }
-
-    60% {
-        transform: rotate3d(-10, 10, 10, 50deg) scale(1.2);
-      }
-
-    80% {
-        transform: rotate3d(10, 10, 10, 50deg) scale(1);
-    }
-
-  }

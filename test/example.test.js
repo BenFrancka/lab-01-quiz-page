@@ -4,7 +4,7 @@ import {countsAsYes} from '../utils.js';
 const test = QUnit.test;
 
 
-//Returns true
+//Returns true as expected
 test('should take any input that starts with y and return true', (expect) => {
     //Arrange
     // Set up your arguments and expectations
@@ -19,11 +19,11 @@ test('should take any input that starts with y and return true', (expect) => {
     expect.equal(actual, expected);
 });
 
-//Returns False
+//Returns False as expected
 test('should take any input that starts with y and return true', (expect) => {
     //Arrange
     // Set up your arguments and expectations
-    const expected = true;
+    const expected = false;
     
     //Act 
     // Call the function you're testing and set the result to a const
